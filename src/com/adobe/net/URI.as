@@ -87,7 +87,7 @@ package com.adobe.net
 		public static const URIbaselineEscape:String = URImustEscape + ":?#/@";
 		
 		// Characters that must be escaped in the part part.
-		public static const URIpathEscape:String = URImustEscape + "?#";
+		public static const URIpathEscape:String = " %?#";
 		
 		// Characters that must be escaped in the query part, if setting
 		// the query as a whole string.  If the query is set by
